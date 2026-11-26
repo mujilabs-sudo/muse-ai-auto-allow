@@ -1,0 +1,24 @@
+{
+  "name": "muse-ai-auto-allow",
+  "version": "1.0.0",
+  "description": "Google Chrome Extension (Manifest V3) that automatically clicks Allow when Muse AI confirmation pop-ups appear.",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/matcher.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "zip": "node scripts/package.mjs",
+    "icons": "python scripts/generate_icons.py"
+  },
+  "keywords": [
+    "chrome-extension",
+    "manifest-v3",
+    "muse-ai",
+    "meta-muse",
+    "auto-allow",
+    "automation"
+  ]
+}

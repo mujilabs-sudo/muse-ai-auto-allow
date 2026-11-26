@@ -1,0 +1,22 @@
+# Build & release artifacts
+dist/
+*.zip
+*.crx
+*.pem
+
+# Dependencies & environment
+node_modules/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
